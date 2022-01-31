@@ -7,7 +7,7 @@ import (
 )
 
 func readTestSeed() ([]byte, error) {
-	file, err := os.OpenFile("../data/seed_test.txt", os.O_RDONLY, 0666)
+	file, err := os.OpenFile("../data/GoLang_Test.txt", os.O_RDONLY, 0666)
 	if err != nil {
 		return nil, err
 	}

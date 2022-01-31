@@ -1,6 +1,7 @@
 # Frequently, the words counter
 
 ## Installation
+
 requires go 1.13 or later
 
 1. clone this repository
@@ -46,4 +47,4 @@ Flags:
   -u, --url string    url for request (default "http://localhost:8000")
 ```
 
-example to get top 5 words appearance from server: `./frequently -f ./data/seed_test.txt --max=5`
+example to get top 5 words appearance from server: `./frequently -f ./data/GoLang_Test.txt --max=5`
